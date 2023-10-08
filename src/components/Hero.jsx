@@ -1,6 +1,5 @@
 import styles from "../style";
 import { discount, robot } from "../assets";
-import GetStarted from "./GetStarted";
 
 const Hero = () => {
   return (
@@ -16,36 +15,50 @@ const Hero = () => {
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            The Next <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Generation</span>{" "}
+            Khataman Al-Quran <br className="sm:block hidden" />{" "}
+            <span className="text-gradient">Keluarga H.Abdul Hadi</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
-            <GetStarted />
           </div>
         </div>
-
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          Payment Method.
-        </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our team of experts uses a methodology to identify the credit cards
-          most likely to fit your needs. We examine annual percentage rates,
-          annual fees.
+          <h2>Niatkan khataman ini (baca al-fatihah) untuk:</h2>
+          <ol>
+            <li>1. Nabi Muhammad serta sahabat-sahabatnya.</li>
+            <li>2. Ibu/Mbah Hj. Husniati</li>
+            <li>3. Mbah Masruri</li>
+            <li>4. Mbah Suparkah</li>
+            <li>5. Mbah Darjo Masilan</li>
+            <li>6. Mbah Aisyah</li>
+            <li>7. Mbah Karto Sarpin Sk</li>
+            <li>8. Mbah Sastro Seno Sk</li>
+            <li>9. Mbah H Nur Ali</li>
+            <li>10. Mbah Saerozi Sk</li>
+            <li>11. Mbah Miun Sk</li>
+            <li>12. Mbah Saibani Sk</li>
+            <li>13. Mbah Samsuri Sk</li>
+            <li>14. Mbah Jono Sk</li>
+            <li>15. Mbah Midi</li>
+            <li>16. Mbah Masirah</li>
+            <li>17. Mbah Yah Sk</li>
+            <li>18. Mbah Marjan</li>
+            <li>19. Mbah Suyuti Sk</li>
+            <li>20. Mbah Kurdi Sk</li>
+            <li>21. Mbah H Jazeri Arif</li>
+            <li>22. Lik Suhadak</li>
+            <li>23. Lik Supriyanto</li>
+            <li>24. Mbah Tasmono SK</li>
+            <li>25. Lik Sih</li>
+            <li>26. Totok Sudarto</li>
+            <li>27. Siti Fatimah</li>
+          </ol>
+          <br />
+          <h3>
+            Supaya kita semua diberi kemudahan, kelancaran, keberkahan, dan
+            kesuksesan. Serta diberi keselamatan dan dijauhkan dari segala musibah
+            dan marabahaya.
+          </h3>
         </p>
-      </div>
-
-      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
-
-        {/* gradient start */}
-        <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
-        <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
-        <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
-        {/* gradient end */}
-      </div>
-
-      <div className={`ss:hidden ${styles.flexCenter}`}>
-        <GetStarted />
       </div>
     </section>
   );
